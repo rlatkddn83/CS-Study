@@ -1,0 +1,15 @@
+C:\Users\1302\Desktop\study\CH04\bin\Debug\net6.0\CH04.exe
+C:\Users\1302\Desktop\study\CH04\bin\Debug\net6.0\CH04.deps.json
+C:\Users\1302\Desktop\study\CH04\bin\Debug\net6.0\CH04.runtimeconfig.json
+C:\Users\1302\Desktop\study\CH04\bin\Debug\net6.0\CH04.dll
+C:\Users\1302\Desktop\study\CH04\bin\Debug\net6.0\CH04.pdb
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.csproj.AssemblyReference.cache
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.AssemblyInfoInputs.cache
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.AssemblyInfo.cs
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.csproj.CoreCompileInputs.cache
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.dll
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\refint\CH04.dll
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.pdb
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\CH04.genruntimeconfig.cache
+C:\Users\1302\Desktop\study\CH04\obj\Debug\net6.0\ref\CH04.dll
