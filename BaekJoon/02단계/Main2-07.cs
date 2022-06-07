@@ -8,7 +8,7 @@ namespace BaekJoon._02단계
 {
     internal class Main2_07
     {
-        static void Main(string[] args)
+        static void Main7(string[] args)
         {
             string[] input = Console.ReadLine().Split();
 
