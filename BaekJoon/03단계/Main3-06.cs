@@ -6,18 +6,19 @@ using System.Threading.Tasks;
 
 namespace BaekJoon._03단계
 {
-    internal class Main3_05
+    internal class Main3_06
     {
-        static void Main5(string[] args)
+        static void Main6(string[] args)
         {
             int input = int.Parse(Console.ReadLine());
             StringBuilder sb = new StringBuilder();
 
-            for (int i = 1; i <= input; i++)
+            for (int i = 0; i < input; i++)
             {
-                sb.Append(i + "\n");
+                sb.Append((input - i) + "\n");
             }
             Console.WriteLine(sb.ToString());
         }
+
     }
 }

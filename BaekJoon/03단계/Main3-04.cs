@@ -8,12 +8,11 @@ namespace BaekJoon._03단계
 {
     internal class Main3_04
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             int innum = int.Parse(Console.ReadLine());
             string[] calnum = new string[2];
-            
-            List<int> list = new List<int>();
+            StringBuilder sb = new StringBuilder();
 
 
             for (int i = 0; i < innum; i++)
@@ -21,14 +20,10 @@ namespace BaekJoon._03단계
                 calnum = Console.ReadLine().Split();
                 int result = int.Parse(calnum[0]) + int.Parse(calnum[1]);
 
-                list.Add(result);
+                sb.Append(result+"\n");
             }
 
-            foreach (int num in list)
-            {
-                Console.WriteLine(num);
-            }
-
+            Console.WriteLine(sb.ToString());
             
         }
     }
