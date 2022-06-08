@@ -18,7 +18,7 @@ namespace CH05
 {
     internal class _1_Class
     {
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             // 객체 생성
             Car sonata = new Car();
