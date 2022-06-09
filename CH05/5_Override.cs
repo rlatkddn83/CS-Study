@@ -71,7 +71,7 @@ namespace CH05
 
     internal class _5_Override
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             AAA a = new AAA();
             BBB b = new BBB();
