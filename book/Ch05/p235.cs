@@ -13,7 +13,7 @@ namespace book.Ch05
             public string name;
             public int grade;
         }
-        static void Main(string[] args)
+        static void Main21(string[] args)
         {
             List<Student> list = new List<Student>();
             list.Add(new Student() { name = "윤인성", grade = 1 });
@@ -23,13 +23,33 @@ namespace book.Ch05
             list.Add(new Student() { name = "구지연", grade = 1 });
             list.Add(new Student() { name = "김연화", grade = 2 });
 
-            foreach (var item in list)
+            //21
+            //foreach (var item in list)
+            //{
+            //    if(item.grade > 1)
+            //    {
+            //        list.Remove(item);
+            //    }
+            //}
+
+            //22
+            //for (int i = 0; i < list.Count; i++)
+            //{
+            //    if (list[i].grade > 1)
+            //    {
+            //        list.RemoveAt(i);
+            //    }
+            //}
+
+            //23
+            for (int i = list.Count-1; i >= 0; i--)
             {
-                if(item.grade > 1)
+                if (list[i].grade > 1)
                 {
-                    list.Remove(item);
+                    list.RemoveAt(i);
                 }
             }
+
 
             foreach (var item in list)
             {
