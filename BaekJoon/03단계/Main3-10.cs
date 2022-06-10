@@ -6,15 +6,19 @@ using System.Threading.Tasks;
 
 namespace BaekJoon._03단계
 {
-    internal class Main3_09
+    internal class Main3_10
     {
-        static void Main9(string[] args)
+        static void Main10(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
 
             for (int i = 1; i <= n; i++)
             {
-                for (int j = 0; j < i; j++)
+                for (int j = 0; j < n-i; j++)
+                {
+                    Console.Write(" ");
+                }
+                for (int k = 0; k < i; k++)
                 {
                     Console.Write("*");
                 }
