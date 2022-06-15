@@ -8,7 +8,7 @@ namespace BaekJoon._04단계
 {
     internal class Main4_07
     {
-        static void Main(string[] args)
+        static void Main7(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
             double[] pers = new double[n];
