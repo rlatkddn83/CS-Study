@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CH07.Sub1;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,7 +19,7 @@ namespace CH07
 {
     internal class _3_ArrayList
     {
-        static void Main(string[] args)
+        static void Main3(string[] args)
         {
             // ArrayList 생성
             ArrayList list1 = new ArrayList();
@@ -89,7 +90,17 @@ namespace CH07
             Console.WriteLine();
 
 
+            // 사과 객체 리스트
+            List<Apple> list5 = new List<Apple>();
 
+            list5.Add(new Apple("한국", 3000));
+            list5.Add(new Apple("미국", 2000));
+            list5.Add(new Apple("일본", 1000));
+
+            Apple a1 = list5[0];
+            a1.Show();
+            list5[1].Show();
+            list5[2].Show();
 
         }
     }
