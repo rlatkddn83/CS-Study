@@ -13,7 +13,7 @@ namespace CH07
 {
     internal class _5_HashSet
     {
-        static void Main(string[] args)
+        static void Main5(string[] args)
         {
             HashSet<int> set = new HashSet<int>();
 
