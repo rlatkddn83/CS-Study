@@ -30,7 +30,7 @@ namespace TEST._4
 
     internal class _4_08
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             Apple apple = new Apple();
             Banana banana = new Banana();
