@@ -46,4 +46,4 @@ namespace TEST._4
             mg2.Print();
         }
     }
-}
+} 
