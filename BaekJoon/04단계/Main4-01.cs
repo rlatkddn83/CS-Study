@@ -12,8 +12,6 @@ namespace BaekJoon._04단계
         {
             int n = int.Parse(Console.ReadLine());
             string[] data = Console.ReadLine().Split();
-            int max;
-            int min;
 
             for (int i = 1; i < n; i++)
             {

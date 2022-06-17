@@ -10,15 +10,15 @@ namespace BaekJoon._09단계
     {
         public static int Fac(int n)
         {
-            int x = 1;
-                x = n * Fac(n-1);
-
-            return x;
+            if (n <= 1)
+                return 1;
+            return n * Fac(n - 1);
         }
-        static void Main(string[] args)
+        static void Main1(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
             int r = Fac(n);
+            Console.WriteLine(r);
         }
     }
 }
