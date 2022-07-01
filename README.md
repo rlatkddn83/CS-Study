@@ -22,7 +22,7 @@
 
 
 ## Project1. 계산기
-![Project1].(.project1/Project1.png)
+![Project1].(.Project1/Project1.png)
 1. 프로젝트 유형
 	- WinForm 프로젝트
 2. 활용기술
