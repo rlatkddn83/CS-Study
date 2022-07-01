@@ -303,5 +303,12 @@ namespace Project1
             y = Math.Round(y, 10);
             txtResult.Text = y.ToString();
         }
+
+        private void btnPM_Click(object sender, EventArgs e)
+        {
+            double x = double.Parse(txtResult.Text);
+            x *= -1;
+            txtResult.Text = x.ToString();
+        }
     }
 } 
