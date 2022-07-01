@@ -29,5 +29,30 @@
 	- 컨트롤
 	- 이벤트와 핸들러
 
+## Project2. 데이터 매니저
+![Project2](./Project2/Project2.png)
+1. 프로젝트 유형
+	- WinForm 프로젝트
+2. 활용기술
+	- 컨트롤
+	- 이벤트와 핸들러
+	- DB접속 및 쿼리
 
-	
+## Project2. 오목
+![Project3](./Project3/Project3.png)
+1. 프로젝트 유형
+	- WinForm 프로젝트
+2. 활용기술
+	- 컨트롤
+	- 이벤트와 핸들러
+	- 그림 그리기
+
+## Project2. 벽돌깨기
+![Project4](./Project4/Project4.png)
+1. 프로젝트 유형
+	- WinForm 프로젝트
+2. 활용기술
+	- 컨트롤
+	- 이벤트와 핸들러
+	- 그림 그리기
+	- 타이머
