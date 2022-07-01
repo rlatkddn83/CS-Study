@@ -265,6 +265,7 @@
             this.btnRoot.TabIndex = 20;
             this.btnRoot.Text = "²√x";
             this.btnRoot.UseVisualStyleBackColor = true;
+            this.btnRoot.Click += new System.EventHandler(this.btnRoot_Click);
             // 
             // btnPower
             // 
@@ -275,6 +276,7 @@
             this.btnPower.TabIndex = 19;
             this.btnPower.Text = "x²";
             this.btnPower.UseVisualStyleBackColor = true;
+            this.btnPower.Click += new System.EventHandler(this.btnPower_Click);
             // 
             // btnReverse
             // 
@@ -285,6 +287,7 @@
             this.btnReverse.TabIndex = 18;
             this.btnReverse.Text = "1/x";
             this.btnReverse.UseVisualStyleBackColor = true;
+            this.btnReverse.Click += new System.EventHandler(this.btnReverse_Click);
             // 
             // btnPercent
             // 
